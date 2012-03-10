@@ -1,0 +1,20 @@
+#tweets{
+	position:absolute;
+	top:50px;
+	right:20px;
+	width: 350px;
+	background: #fafafa;
+	border-radius: 3px;
+	border: 1px solid #E4E4E4;
+	z-index: 9999
+	
+}
+#tweets ul li{
+	margin: 10px 5px;
+	
+}
+.jta-tweet-list{
+	
+	max-height:1000px;
+	overflow:auto;
+}

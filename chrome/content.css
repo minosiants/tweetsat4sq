@@ -18,3 +18,13 @@
 	max-height:1000px;
 	overflow:auto;
 }
+.t4sq-query, .t4sq-submit{
+	display:inline;
+}
+.t4sq-radius{
+	width: 40px; 
+}
+.t4sq-helpText{
+	color: #999;
+	font-size: 11px;
+}

@@ -1,17 +1,19 @@
 {
-  "name": "foursquare and tweets",
-  "version": "1.0.3",
+  "name": "tweets@foursquare",
+  "version": "1.0.2",
+  "icons" : { "48": "4sq-logo48.png",
+             "128": "4sq-logo128.png" },
   "description":
-      "Shows tweets of foursquare venues location",
+      "Shows tweets at foursquare venues location",
   "homepage_url": "http://minosiants.com",
-  "permissions": [    
-    "history",
+  "permissions": [        
     "idle",
     "notifications",
     "tabs",
     "http://*/*",
     "https://*/*"
   ],
+
   "background_page": "background.html",
   "content_scripts": [{
     "matches": ["https://foursquare.com/v/*", "http://foursquare.com/v/*"],

@@ -1,6 +1,6 @@
 {
   "name": "tweets@foursquare",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "icons" : { "48": "4sq-logo48.png",
              "128": "4sq-logo128.png" },
   "description":

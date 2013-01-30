@@ -6,7 +6,7 @@
 			return $('meta[property="'+prop+'"]').attr('content');
 		};	
 		 
-		var $container=$("#shareSocial").parent().append("<div style='margin:2px;'></div>");
+		var $container=$(".shareSocial").parent().append("<div style='margin:2px;'></div>");
 		var $query=$("<input class='formStyle notranslate t4sq-query'></input>").val(metaContent("og:title")).appendTo($container);
 		var $submit=$("<button class='t4sq-submit greenButton' style='display:inline'>Find local tweets</button>").appendTo($container);
 		var $radius=$("<input class='formStyle notranslate t4sq-radius' value='0.250'></input>").appendTo($container);

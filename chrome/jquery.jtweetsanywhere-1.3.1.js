@@ -2254,6 +2254,6 @@ JTA_I18N.addResourceBundle('jTweetsAnywhere', 'en',
 		chrome_getJSON(url, callback);
 	};
 	defaultRateLimitDataProvider = function(callback){
-		chrome_getJSON('http://api.twitter.com/1/account/rate_limit_status.json?callback=?', callback);
+		chrome_getJSON('https://api.twitter.com/1/account/rate_limit_status.json?callback=?', callback);
 	};
 })(jQuery);
